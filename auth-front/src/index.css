@@ -1,0 +1,943 @@
+.bg-be0f30 {
+  background-color: #fefefe !important;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.destacado {
+  color: #C5A76A;
+  font-weight: bold;
+}
+
+
+
+
+
+/* login */
+.login {
+  padding: 25px;
+}
+
+.icono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.login-container {
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  padding: 20px;
+
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  /* Cambia el color del texto según tu diseño */
+  border-radius: 8px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #282828;
+  color: #ffffff;
+  /* Cambia el color del texto según tu diseño */
+  border-radius: 8px;
+}
+
+button {
+  color: #fff;
+  padding: 10px 5px;
+  /* Ajusta el padding para hacer el botón más corto */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: auto;
+  /* Permite que el ancho del botón sea ajustado automáticamente según el contenido */
+}
+
+/* login */
+
+
+/* Signup */
+
+.Signup-container {
+  /* background: #FFF; */
+  width: 450px;
+  height: auto;
+  margin: auto;
+  padding: 45px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del formulario de registro */
+.Signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Signup */
+
+
+/*layout*/
+.name {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.login {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.signup {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fondo-negro {
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+
+
+/* boton salir*/
+.exit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.exit-button:hover {
+  background-color: #bd2130;
+}
+
+/* boton salir*/
+
+
+/* Cambia el color de los íconos de navegación del carousel a rojo */
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  color: rgb(177, 83, 83);
+}
+
+.nombrefooter-item {
+  padding: 25px;
+}
+
+.nombrefooter {
+  text-align: center;
+  margin: 0;
+}
+
+#footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+#footerhome {
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* Alinea verticalmente en el centro */
+  padding: 10px;
+  /* Añade algún espacio alrededor del contenido */
+}
+
+#footersing {
+  background: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* Alinea verticalmente en el centro */
+  padding: 10px;
+  /* Añade algún espacio alrededor del contenido */
+}
+
+.footer-singup {
+  padding: 25px;
+}
+
+.logonodo {
+  justify-content: flex-start;
+  height: 50px;
+  width: 50px;
+  /* margin-right: 10px; /* Añade algún espacio entre la imagen y el texto si es necesario */
+}
+
+.frase {
+  font-size: 20px;
+  /* Ajusta el tamaño del texto según tus preferencias */
+  line-height: 1.5;
+  /* Ajusta la altura de línea para mejorar la legibilidad */
+  color: #ffffff;
+  /* Cambia el color del texto si es necesario */
+  text-align: justify;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin: 10px;
+  color: #000;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+button {
+  margin: 0;
+  /* Eliminar el margen predeterminado de los botones */
+}
+
+.centered-form {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.label-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.centered-form label,
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+.main-container {
+  background: #000000;
+  color: white;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.centered-form-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.centered-form {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.label-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+
+
+.login-form button {
+  background-color: #003366;
+  color: #ffffff;
+}
+
+.Signup-form button {
+  background-color: #C5A76A;
+  color: #ffffff;
+  /* Texto en color blanco para contrastar con el fondo */
+  /* Puedes agregar estilos adicionales según sea necesario */
+}
+
+
+
+
+.button-container button {
+  margin: 1rem;
+  right: 1rem;
+}
+
+#pagar-resumen {
+  background-color: #ccc;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 400px;
+  margin: 0 auto;
+
+}
+
+/* order estatus */
+.order-status-container {
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* Centra los detalles verticalmente */
+  text-align: center;
+  /* Centra el texto dentro de la sección de detalles */
+}
+
+.order-detail {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  display: flex;
+  /* Mostrar los elementos en línea */
+  align-items: center;
+  /* Alinear los elementos verticalmente */
+}
+
+.order-detail p:first-child {
+  font-weight: 600;
+  /* Resaltar la pregunta */
+  margin-right: 10px;
+  /* Espacio entre la pregunta y la respuesta */
+}
+
+.order-detail p:nth-child(2) {
+  text-align: left;
+  /* Alinear la respuesta a la izquierda */
+}
+
+.orderfototer {
+  background: #000000;
+  color: #FFF;
+  text-align: center;
+}
+
+/* fin order estatus */
+/* css de UserInfo */
+.user-info-container {
+
+  color: white;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+}
+
+.text-3xl.font-bold {
+  color: white;
+}
+
+#titulo {
+  color: #FFF;
+}
+
+.order-details p,
+.bicycle-details p {
+  color: black;
+}
+
+
+.user-info-container>div {
+  margin-bottom: 25px;
+}
+
+.user-info-container>div>strong {
+  font-weight: bold;
+}
+
+.user-info-container>div>span {
+  font-size: 14px;
+}
+
+.user-info-container>button {
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #C5A76A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  /* Ajusta el ancho según tu preferencia */
+}
+
+/*mapa*/
+
+/* Estilos para el contenedor del mapa */
+.map-container {
+  flex: 1;
+  height: 400px;
+}
+
+/* Estilos para el contenedor de la lista de direcciones */
+.address-list-container {
+  flex: 1;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+/* Estilos para la lista de direcciones */
+.address-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  /* Hacer que la lista tenga desplazamiento vertical si es necesario */
+}
+
+.address-list-container.mt-4 {
+  background: #000000;
+  color: #FFF;
+}
+
+/* Estilos para los elementos de la lista de direcciones */
+.address-list li {
+  cursor: pointer;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.address-list li:hover {
+  background-color: #e0e0e0;
+}
+
+/* Estilos para el cuadro de direcciones */
+.address-list-container {
+  width: 450px;
+  /* Ajusta el ancho según sea necesario */
+  height: 200px;
+  /* Ajusta la altura según sea necesario */
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px auto;
+  /* Centra el cuadro */
+  border-radius: 5px;
+}
+
+.address-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.address-list li {
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.address-list li:last-child {
+  border-bottom: none;
+}
+
+.list-group-item.list-group-item-action.d-flex.justify-content-between.align-items-center {
+  background: #ccc;
+}
+
+.list-group-item {
+  background: #ccc;
+}
+
+/* Estilos para el mapa */
+.map-container {
+  /* height: 400px; Ajusta la altura según sea necesario */
+  margin: 20px auto;
+  /* Centra el mapa */
+  width: 730px;
+  height: 340px;
+}
+
+/* Estilos para el botón de regresar */
+#regresarButton {
+  margin-top: 20px;
+  background-color: #C5A76A;
+  float: right;
+  /* Añade esta línea */
+}
+
+
+#continuarButton {
+  margin-top: 20px;
+  background-color: #C5A76A
+}
+
+/* Estilos para el pie de página */
+#footersing {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.requisitos {
+  font-size: 16px;
+  /* Ajusta el tamaño del texto según tus preferencias */
+}
+
+.requisitos ul {
+  list-style-type: none;
+  /* Elimina los estilos de viñetas predeterminados */
+  padding: 0;
+  /* Elimina el relleno predeterminado de la lista */
+}
+
+.requisitos li {
+  font-size: 20px;
+  /* Ajusta el tamaño del texto según tus preferencias */
+  margin-bottom: 10px;
+  /* Espaciado entre elementos de la lista */
+}
+
+.mi-div {
+  background-color: #C5A76A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 120px;
+}
+
+.mi-div img {
+  width: auto;
+  height: 80%;
+  justify-content: space-between;
+  margin: 0 10px;
+  /* Ajusta el margen entre las imágenes según tus necesidades */
+}
+
+/* dashoard color de la lista de direcciones */
+.address-list li {
+  background: #282828;
+  color: #FFF;
+}
+
+.address-list-selected {
+  border: 3px solid #BE0F30;
+}
+
+.address-list-container {
+  background-color: #FFF;
+}
+
+
+/* estilo del admin de bikes */
+
+.fondo-negro {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Target all buttons within the form */
+form button {
+  background-color: red;
+  color: white;
+  margin-right: 1%;
+}
+
+/* Target the "Editar" and "Eliminar" buttons specifically */
+.Carousel .text-white div button {
+  background-color: red;
+  color: white;
+}
+
+.Carousel .text-white div button {
+  background-color: red;
+  color: white;
+}
+
+
+.tabla,
+.tabla th,
+.tabla td {
+  border: 1px solid #C5A76A;
+  /* Aplica el color de borde a la tabla y a las celdas */
+}
+
+/* estilo cuadros de los parques de home */
+.card-img-top {
+  display: flex;
+  height: 250px;
+  width: auto;
+}
+
+.card {
+  background: black;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.registrarse-sesion {
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+.color-registrarse {
+  color: red;
+}
+
+.selected-address {
+  background-color: #C5A76A !important;
+  /* Fondo del color especificado */
+  color: #fff !important;
+  /* Texto en color blanco para mejorar la legibilidad */
+}
+
+.col-md-8 {
+  background: black;
+}
+
+.errorMessage {
+  color: red !important;
+
+}
+
+/*  layout*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 65px;
+  left: 0;
+  padding-top: 20px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-250px);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  /* Sombra en el borde derecho */
+}
+
+
+.sidebar .menu-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.sidebar .menu-section ul li a {
+  color: #1D5D99;
+}
+
+
+
+.sidebar .logout-section {
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+}
+
+.sidebar .logout-section a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #1D5D99;
+  font-size: 1em;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 80%;
+}
+
+.menu-section {
+  margin-bottom: 20px;
+}
+
+.menu-section h3 {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-section li {
+  padding: 8px 16px;
+}
+
+.menu-section li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+
+.menu-section li a:hover {
+  background-color: #d6d6d6;
+}
+
+.menu-section li a .iconify {
+  margin-right: 10px;
+}
+
+.logout-section {
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.logout-section a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-section a:hover {
+  background-color: #d6d6d6;
+}
+
+.logout-section a .iconify {
+  margin-right: 10px;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+  transition: margin-left 0.3s ease-in-out;
+  /* transición suave al abrir/cerrar */
+  margin-left: 0;
+  margin-top: 65px;
+  /* contenido principal alineado a la izquierda */
+
+}
+
+.sidebar.open {
+  transform: translateX(0);
+  /* mostrar sidebar */
+}
+
+.content.shifted {
+  margin-left: 250px;
+  margin-top: 65px;
+  /* desplazar contenido principal cuando el sidebar esté abierto */
+}
+
+.sidebar-toggle {
+  position: fixed;
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+  /* asegurar que el botón esté encima del contenido */
+}
+
+
+/* layout*/
+
+.registro-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.registro-form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.registro-form label {
+  margin-right: 10px;
+}
+
+.registro-form input,
+.registro-form textarea {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+/*tanquero nuevo regitro*/
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #000000;
+}
+
+.table-bordered th {
+  background-color: #6eb1f5;
+}
+
+.table {
+  margin-top: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  /* Centra el contenido en las celdas */
+  vertical-align: middle;
+  /* Centra verticalmente el contenido */
+}
+
+.table th {
+  background-color: #1187fe;
+  /* Color de fondo para los encabezados */
+}
+
+.table td {
+  background-color: #ffffff;
+  /* Color de fondo para las celdas */
+}
+
+/* TanqueroDashboard.css */
+.dashboard-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome-message {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #1C4C99;
+  color: white;
+}
+
+
+.btn-secondary {
+  background-color: #1C4C99;
+  color: white;
+}
+
+.form-control-file {
+  display: inline-block;
+  width: auto;
+  /* Ajusta el ancho del input de archivo */
+}
